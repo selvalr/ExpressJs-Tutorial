@@ -1,0 +1,16 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "* Express js is a open source web framwork for Node.js     * ExpressJs is a fast,robust and asynchronous is nature     * We can Design single-page or multi-page web application     * Allow the middleware to responce to http to request     * express is a allow routing concept difference page user action http method URL     * express is a template allow to a HTML pages Render.     * learn all the topic such as http method,routing,cookie management,scaffolding,file upload,template,session,url building,authrntication,middleware,RESTful API etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.12",
+    "pug": "^3.0.2"
+  }
+}

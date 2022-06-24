@@ -1,0 +1,33 @@
+html
+    - var demo ="hello"  
+    head 
+        title Pug  
+        style 
+            include index.css  
+    body 
+    
+        h1.demo hello selva  
+        p#para  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui tempore, minima labore non eveniet esse, quaerat mollitia possimus totam quia doloremque nulla quisquam, perferendis assumenda voluptatem cum. Ratione, eos nobis!
+        a(href="https://www.youtube.com") youtube
+        ul 
+          each val in['mongo','express','node']
+            li= val 
+        div
+            if (user)
+                h1 hello #{user.name}
+            else 
+                a(href="https://www.youtube.com") Subscribe
+        div 
+            input(type="text")
+
+        div 
+            h1=demo 
+
+        div 
+            h1=Name  
+            h2=Age //<h2>age()
+
+        div 
+            h1(style={color:'blue'}) hello #{demo}
+
+        
